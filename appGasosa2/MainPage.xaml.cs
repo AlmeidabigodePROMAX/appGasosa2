@@ -216,8 +216,7 @@
             txtKmInicial.Text = "";
             txtKmFinal.Text = "";
             txtLitros.Text = "";
-            txtConsumoAlcool.Text = "";
-            txtConsumoGasolina.Text = "";
+          
 
             lblDistancia.Text =
                 "Distância percorrida: -";
