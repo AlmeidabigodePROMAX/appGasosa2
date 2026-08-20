@@ -56,25 +56,6 @@
                 TextColor="Black"
                 Keyboard="Numeric" />
 
-            <Label
-                Text="Consumo estimado do veículo"
-                FontSize="18"
-                FontAttributes="Bold"
-                TextColor="#1565C0" />
-
-            <Entry
-                x:Name="txtConsumoAlcool"
-                Placeholder="Consumo com álcool (km/L)"
-                PlaceholderColor="#777777"
-                TextColor="Black"
-                Keyboard="Numeric" />
-
-            <Entry
-                x:Name="txtConsumoGasolina"
-                Placeholder="Consumo com gasolina (km/L)"
-                PlaceholderColor="#777777"
-                TextColor="Black"
-                Keyboard="Numeric" />
 
             <Button
                 Text="CALCULAR"

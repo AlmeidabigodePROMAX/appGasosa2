@@ -104,7 +104,7 @@
             }
 
 
-            // =====================================================
+            // ========================================
             // 1. CÁLCULO DA DISTÂNCIA PERCORRIDA
             // Fórmula:
             // Distância = Km final - Km inicial
@@ -113,7 +113,7 @@
             double distancia = kmFinal - kmInicial;
 
 
-            // =====================================================
+            // =========================================
             // 2. CÁLCULO DO CONSUMO MÉDIO
             // Fórmula:
             // Consumo (km/L) = Distância percorrida / Litros
@@ -122,7 +122,7 @@
             double consumoMedio = distancia / litros;
 
 
-            // =====================================================
+            // ========================================
             // 3. CÁLCULO DO CUSTO POR KM
             //
             // Fórmula:
@@ -136,19 +136,18 @@
                 precoGasolina / consumoGasolina;
 
 
-            // =====================================================
+            
             // 4. REGRA DOS 70%
-            //
+            
             // Fórmula:
-            // Índice = Preço do álcool / Preço da gasolina
-            //
+            //Índice = Preço do álcool / Preço da gasolina
+            
             // Se índice <= 0,70:
-            //     Álcool tende a compensar
-            //
+            // Álcool tende a compensar
+            
             // Se índice > 0,70:
-            //     Gasolina tende a compensar
-            // =====================================================
-
+            // Gasolina tende a compensar
+            
             double indice70 =
                 precoAlcool / precoGasolina;
 
@@ -200,12 +199,7 @@
             lblConsumo.Text =
                 $"Consumo calculado: {consumoMedio:F2} km/L";
 
-            lblCustoAlcool.Text =
-                $"Custo por km (álcool): R$ {custoKmAlcool:F3}";
-
-            lblCustoGasolina.Text =
-                $"Custo por km (gasolina): R$ {custoKmGasolina:F3}";
-
+            
             lblRegra70.Text =
                 $"Regra dos 70%: {resultado70}";
 
@@ -230,12 +224,6 @@
 
             lblConsumo.Text =
                 "Consumo calculado: -";
-
-            lblCustoAlcool.Text =
-                "Custo por km (álcool): -";
-
-            lblCustoGasolina.Text =
-                "Custo por km (gasolina): -";
 
             lblRegra70.Text =
                 "Regra dos 70%: -";
