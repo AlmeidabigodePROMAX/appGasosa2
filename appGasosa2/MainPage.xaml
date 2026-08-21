@@ -55,6 +55,20 @@
                 PlaceholderColor="#777777"
                 TextColor="Black"
                 Keyboard="Numeric" />
+			
+			<Entry
+			x:Name="txtConsumoAlcool"
+			Placeholder="Consumo com Álcool (km/L)"
+			PlaceholderColor="#777777"
+			TextColor="Black"
+			Keyboard="Numeric" />
+
+			<Entry
+				x:Name="txtConsumoGasolina"
+				Placeholder="Consumo com Gasolina (km/L)"
+				PlaceholderColor="#777777"
+				TextColor="Black"
+				Keyboard="Numeric" />
 
 
             <Button
@@ -104,17 +118,11 @@
                         Text="Consumo calculado: -"
                         TextColor="Black" />
 
-                    <Label
-                        x:Name="lblCustoAlcool"
-                        Text="Custo por km (álcool): -"
-                        TextColor="Black" />
 
-                    <Label
-                        x:Name="lblCustoGasolina"
-                        Text="Custo por km (gasolina): -"
-                        TextColor="Black" />
+		
 
-                    <Label
+
+					<Label
                         x:Name="lblRegra70"
                         Text="Regra dos 70%: -"
                         TextColor="Black" />

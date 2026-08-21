@@ -199,7 +199,8 @@
             lblConsumo.Text =
                 $"Consumo calculado: {consumoMedio:F2} km/L";
 
-            
+
+
             lblRegra70.Text =
                 $"Regra dos 70%: {resultado70}";
 
@@ -216,19 +217,16 @@
             txtKmInicial.Text = "";
             txtKmFinal.Text = "";
             txtLitros.Text = "";
-          
+            txtConsumoAlcool.Text = "";
+            txtConsumoGasolina.Text = "";
 
-            lblDistancia.Text =
-                "Distância percorrida: -";
+            lblDistancia.Text = "Distância percorrida: -";
+            lblConsumo.Text = "Consumo calculado: -";
+            lblRegra70.Text = "Regra dos 70%: -";
+            lblRecomendacao.Text = "Recomendação: -";
 
-            lblConsumo.Text =
-                "Consumo calculado: -";
 
-            lblRegra70.Text =
-                "Regra dos 70%: -";
 
-            lblRecomendacao.Text =
-                "Recomendação: -";
         }
     }
 }
